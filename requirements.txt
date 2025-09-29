@@ -3,8 +3,9 @@
 streamlit>=1.28.0
 streamlit-webrtc>=0.47.0
 
-# Computer Vision and AI/ML
-opencv-python>=4.8.0
+# Computer Vision and AI/ML - FIXED: Using headless version to avoid libGL.so.1 error
+opencv-python-headless>=4.8.0
+opencv-contrib-python-headless>=4.8.0
 mediapipe>=0.10.0
 ultralytics>=8.0.0
 Pillow>=10.0.0
@@ -30,6 +31,19 @@ urllib3>=2.0.0
 
 # System and OS
 psutil>=5.9.0
+
+# Audio Processing (for alerts/buzzer functionality)
+sounddevice>=0.4.0
+
+# Additional Dependencies for YOLO and Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+scipy>=1.10.0
+
+# File Processing and Utilities
+PyYAML>=6.0
+tqdm>=4.64.0
+matplotlib>=3.5.0
 
 # Optional: Enhanced Performance
 # numba>=0.57.0  # Uncomment for faster computations
