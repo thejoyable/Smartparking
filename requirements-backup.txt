@@ -1,0 +1,32 @@
+# Smart Parking Streamlit Application Requirements
+# Streamlit Cloud Compatible (Python 3.11)
+
+# Core Streamlit
+streamlit==1.28.1
+streamlit-webrtc==0.47.0
+
+# Computer Vision - Tested versions
+opencv-python==4.8.1.78
+mediapipe==0.10.7
+ultralytics==8.0.196
+Pillow==10.0.1
+
+# Data Processing
+pandas==2.0.3
+numpy==1.24.3
+
+# Date Processing
+python-dateutil==2.8.2
+
+# WebRTC and Video
+av==10.0.0
+aiortc==1.6.0
+
+# Network
+aiohttp==3.8.5
+websockets==11.0.3
+requests==2.31.0
+urllib3==2.0.4
+
+# System
+psutil==5.9.5
